@@ -1,99 +1,118 @@
-Financial Dashboard Case Study – Power BI
-🚀 About the Project
+# Financial Dashboard Case Study – Power BI
+
+---
+
+## 1. About the Project
 
 This project was completed as part of a Financial Analytics Case Study where I worked as a Data Analyst at The Finance Group.
 
 The objective was to design and deliver a monthly interactive Power BI dashboard that enables leadership to monitor the company’s financial health and key performance indicators (KPIs).
 
-The dashboard allows users to analyze Revenue, Profitability, Cash Flow, Budget Performance, and Aging metrics with dynamic filters and drill-downs.
+The dashboard allows users to analyze Revenue, Profitability, Cash Flow, Budget Performance, and Aging metrics using dynamic filters and drill-down capabilities.
 
-📌 Project Requirements
+---
 
-Build a monthly-level interactive financial dashboard.
+## 2. Project Requirements
 
-Include KPI cards: Revenue, Gross Margin %, EBITDA %, Net Cash.
+1. Build a monthly-level interactive financial dashboard.  
+2. Include KPI cards: Revenue, Gross Margin %, EBITDA %, and Net Cash.  
+3. Create visuals for Revenue Trends, Budget vs Actuals, Cash Flow, Product Performance, and Aging analysis.  
+4. Enable filtering by date range, region, and product/service.  
+5. Ensure data accuracy through proper cleaning and validation.  
 
-Create visuals for Revenue Trends, Budget vs Actuals, Cash Flow, Product Performance, and Aging analysis.
+---
 
-Enable filtering by date range, region, and product/service.
+## 3. Tools and Technologies Used
 
-Ensure data accuracy through cleaning and validation.
+1. Power BI  
+2. Excel / CSV datasets (P&L, Cash Flow, Sales, Budget data)  
+3. Power Query (for data cleaning and transformation)  
+4. DAX (for calculated measures such as EBITDA %, Gross Margin %, Budget Variance %, and Net Cash)  
 
-🛠 Tools & Technologies
+---
 
-📊 Power BI
+## 4. Challenges Faced
 
-📁 Excel / CSV datasets (P&L, Cash Flow, Sales, Budget data)
+1. **Data Cleaning**  
+   Handling missing budget values and aligning month-level financial data across multiple datasets.
 
-🧹 Power Query for data cleaning and transformation
+2. **Data Modeling**  
+   Creating accurate relationships between Sales, P&L, Cash Flow, and Budget tables.
 
-📐 DAX for calculated measures (EBITDA %, Gross Margin %, Budget Variance %, Net Cash)
+3. **KPI Calculation**  
+   Accurately calculating EBITDA %, Gross Margin %, and Budget Variance % using DAX.
 
-⚠️ Challenges Faced
+4. **Dashboard Design**  
+   Ensuring the dashboard remains clean, interactive, and executive-friendly without overcrowding visuals.
 
-🧹 Data Cleaning – Handling missing budget values and aligning month-level financial data across multiple datasets.
+---
 
-🔗 Data Modeling – Creating relationships between Sales, P&L, Cash Flow, and Budget tables.
+## 5. Dashboard Overview
 
-📊 KPI Calculation – Accurately calculating EBITDA %, Gross Margin %, and Budget Variance % using DAX.
+The dashboard includes the following components:
 
-🎯 Dashboard Design – Ensuring the dashboard remains clean, interactive, and executive-friendly without overcrowding visuals.
+1. **KPI Scorecards**
+   - EBITDA %: 25.17%  
+   - Gross Profit %: 45.91%  
+   - Net Cash: 179K  
+   - Total Revenue: 5M  
 
-📊 Dashboard Overview
+2. Revenue vs Revenue Budget by Quarter  
 
-The dashboard includes:
+3. Revenue, Budget, and Budget Variance % by Month  
 
-KPI Scorecards:
+4. Revenue and Gross Profit Trend by Month  
 
-EBITDA % (25.17%)
+5. Revenue by Product/Service  
 
-Gross Profit % (45.91%)
+6. Receivables and Payables Aging (Donut Chart)  
 
-Net Cash (179K)
+7. Cash Flow Waterfall (Inflows, Outflows, Total)  
 
-Total Revenue (5M)
+8. Interactive Filters: Year, Region, Product/Service  
 
-Revenue vs Revenue Budget by Quarter
+9. Drill-down capability for detailed monthly analysis  
 
-Revenue, Budget & Budget Variance % by Month
+---
 
-Revenue & Gross Profit Trend by Month
+## 6. Key Insights
 
-Revenue by Product/Service
+### 6.1 Revenue Performance
 
-Receivables & Payables Aging (Donut Chart)
+Revenue consistently performs below the revenue budget across all quarters. However, Q3 shows relatively stronger performance compared to other quarters.
 
-Cash Flow Waterfall (Inflows, Outflows, Total)
+### 6.2 Profitability Strength
 
-Interactive Filters: Year, Region, Product/Service
+Gross Profit margin remains strong at 45.91%, indicating efficient cost control relative to revenue.  
+EBITDA margin at 25.17% reflects stable operational performance.
 
-Drill-down capability for deeper monthly analysis
+### 6.3 Cash Flow Movement
 
-🔍 Key Insights
+The waterfall chart indicates strong inflows but significant outflows, reducing overall net cash to 179K. Cash management practices can be further optimized.
 
-1️⃣ Revenue Performance
-Revenue consistently performs below the revenue budget across all quarters. However, Q3 shows slightly stronger performance compared to other quarters.
+### 6.4 Budget Variance Fluctuation
 
-2️⃣ Profitability Strength
-Gross Profit margin remains strong at 45.91%, indicating efficient cost control relative to revenue. EBITDA margin at 25.17% reflects stable operational performance.
+Budget Variance % fluctuates significantly month-to-month, suggesting forecasting inaccuracies or seasonal performance changes.
 
-3️⃣ Cash Flow Movement
-The waterfall chart shows strong inflows but significant outflows, reducing overall net cash to 179K. Cash management can be optimized further.
+### 6.5 Product/Service Contribution
 
-4️⃣ Budget Variance Fluctuation
-Budget variance % fluctuates significantly month-to-month, indicating forecasting inaccuracies or seasonal performance changes.
-
-5️⃣ Product/Service Contribution
 Revenue varies across services, with certain months showing stronger product-level spikes, indicating seasonal or demand-driven performance differences.
 
-💡 Recommendations
+---
 
-🎯 Improve Budget Forecasting – Revisit quarterly forecasting methods to reduce consistent budget gaps.
+## 7. Recommendations
 
-💰 Strengthen Cash Management – Optimize outflow control and review operating expenses to improve net cash position.
+1. **Improve Budget Forecasting**  
+   Revisit quarterly forecasting methodologies to reduce consistent budget gaps.
 
-📊 Focus on High-Performing Products – Identify top revenue-generating services and allocate more marketing and operational support to them.
+2. **Strengthen Cash Management**  
+   Optimize outflow control and review operating expenses to improve the net cash position.
 
-📈 Improve Monthly Variance Monitoring – Conduct deeper analysis in months with large budget variance to understand root causes.
+3. **Focus on High-Performing Products**  
+   Identify top revenue-generating services and allocate greater marketing and operational support to them.
 
-🧾 Optimize Receivables Collection – Improve receivable aging cycles to strengthen liquidity and reduce dependency on inflows.
+4. **Enhance Monthly Variance Monitoring**  
+   Conduct deeper analysis during months with significant budget variance to determine root causes.
+
+5. **Optimize Receivables Collection**  
+   Improve receivable aging cycles to strengthen liquidity and reduce dependency on inflow timing.
